@@ -9,4 +9,4 @@ class SubscriberCreate(CreateView):
 
 def confirm(request, subscriber_id):
     subscriber = Subscriber.objects.get(id=subscriber_id)
-    return render('confirm.html', {'subscriber': subscriber})
+    return render(request, 'confirm.html', {'subscriber': subscriber})
