@@ -72,3 +72,8 @@ img {
     height: auto!important;  
     margin: 5px;
 }
+
+.search {
+    border: 1px solid black!important;
+    padding-left: 2vmin!important;
+}

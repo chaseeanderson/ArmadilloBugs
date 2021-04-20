@@ -3,23 +3,29 @@
 
 {% block content %}
 
-<h1>Customer Database</h1>
+<div class="row">
+    <div class="col s12">
+        <div class="col s12 m6">
+            <h4>Customer Database</h4>
+            <input type="text" class="search" placeholder="Search">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name:</th>
+                        <th>Email:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for subscriber in subscribers %}
+                        <tr>
+                            <td>{{subscriber.name}}</td>
+                            <td>{{subscriber.email}}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 
-<table>
-    <thead>
-        <tr>
-            <th>Name:</th>
-            <th>Email:</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for subscriber in subscribers %}
-            <tr>
-                <td>{{subscriber.name}}</td>
-                <td>{{subscriber.email}}</td>
-            </tr>
-        {% endfor %}
-    </tbody>
-</table>
-           
 {% endblock %}
