@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+footer.page-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center!important;
+    justify-content: center!important;
+    padding: 10px!important;
+  }
+
+.logo {
+    color: white;
+    background-color: purple!important;
+    border-radius: 50%;
+    width: 17px;
+  }
+
+.btn {
+    background-color: #AF14F8!important;
+    border-radius: 8px!important;
+}  
+
+.input {
+    background-color: white!important;
+}
+
+label {
+    font-size: 16px !important;
+}
+
+h3 {
+    font-family: Rasa !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 36px !important;
+    line-height: 44px !important;
+}
+
+p {
+    font-family: Rasa !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 22px !important;
+    line-height: 27px !important;
+    text-align: center !important;
+}
+
+.hero {
+    background-image: url("https://i.imgur.com/QU19Pik.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0 0 7vmin 0!important;
+    background-color: black!important;
+}
+
+main {
+    flex: 1 0 auto;
+  }
+
+img {
+    width: 50vmin!important;
+    height: 50vmin!important;
+}  
+
+.social {
+    border-radius: 30%;
+    width: 24px!important; 
+    height: auto!important;  
+    margin: 5px;
+}
