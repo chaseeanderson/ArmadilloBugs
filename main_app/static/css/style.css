@@ -5,8 +5,11 @@ body {
   }
 
 footer.page-footer {
-    padding-top: 0;
-    text-align: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center!important;
+    justify-content: center!important;
+    padding: 10px!important;
   }
 
 .logo {
@@ -47,13 +50,25 @@ p {
 }
 
 .hero {
-    /* background-image: url("jonathan-velasquez-c1ZN57GfDB0-unsplash.jpg"); */
+    background-image: url("https://i.imgur.com/QU19Pik.jpg");
     background-position: center;
     background-size: cover;
-    margin: 0!important;
+    margin: 0 0 7vmin 0!important;
     background-color: black!important;
 }
 
 main {
     flex: 1 0 auto;
   }
+
+img {
+    width: 50vmin!important;
+    height: 50vmin!important;
+}  
+
+.social {
+    border-radius: 30%;
+    width: 24px!important; 
+    height: auto!important;  
+    margin: 5px;
+}
