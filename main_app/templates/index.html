@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<h1>Customer Database</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name:</th>
+            <th>Email:</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for subscriber in subscribers %}
+            <tr>
+                <td>{{subscriber.name}}</td>
+                <td>{{subscriber.email}}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+           
+{% endblock %}
