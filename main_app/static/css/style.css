@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+footer.page-footer {
+    padding-top: 0;
+    text-align: right;
+  }
+
+.logo {
+    color: white;
+    background-color: purple!important;
+    border-radius: 50%;
+    width: 17px;
+  }
+
+.btn {
+    background-color: #AF14F8!important;
+    border-radius: 8px!important;
+}  
+
+.input {
+    background-color: white!important;
+}
+
+label {
+    font-size: 16px !important;
+}
+
+h3 {
+    font-family: Rasa !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 36px !important;
+    line-height: 44px !important;
+}
+
+p {
+    font-family: Rasa !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 22px !important;
+    line-height: 27px !important;
+    text-align: center !important;
+}
+
+.hero {
+    /* background-image: url("jonathan-velasquez-c1ZN57GfDB0-unsplash.jpg"); */
+    background-position: center;
+    background-size: cover;
+    margin: 0!important;
+    background-color: black!important;
+}
+
+main {
+    flex: 1 0 auto;
+  }
